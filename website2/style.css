@@ -1,0 +1,352 @@
+.btn {
+	background-color: #fb6365;
+	color: #fff;
+}
+.navbar-collapse ul li a {
+	font-size: 20px;
+	color: #000;
+	font-weight: 450;
+	letter-spacing: .8px;
+	text-shadow: 1px 1px 1px #8888;
+}
+.navbar-collapse ul li a:hover {
+	color: #fb6365;
+	transition: all ease-in-out .5s;
+}
+nav {
+	background-color: #f0f8ff;
+	color: #000;
+}
+.content3 {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/hero1.jpg);
+	width: 100%;
+	height: 80vh;
+	background-position: center;
+	
+}
+.hero1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4rem !important;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	letter-spacing: 2px;
+	padding-top: 30px;
+}
+.herop{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	font-size: 2.5rem !important;
+}
+.carousel-item img{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.dbtn2 {
+	background-color: #fb6356;
+	border: none;
+	box-shadow: 2px 2px 2px #000;
+	padding: 15px;
+	border-radius: 5px;
+	color: #fff;
+	width: 15% !important;
+	margin-left: 42%;
+}
+.dbtn {
+	cursor: no-drop;
+}
+.about h1{
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #000;
+	text-align: center;	
+}
+.about p{
+	text-align: center;
+	font-size: 21px;
+}
+
+.aboutApp h1{
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #000;
+	text-align: center;	
+}
+.pic img {
+	width: 70%;
+	/*height: auto;*/
+	background-position: center;
+	box-shadow: 6px 6px 6px #8888;
+	margin: 5px;
+	border-radius: 10px;
+}
+.fa-1, .fa-2, .fa-3, .fa-4{
+	font-size: 50px;
+	color: #fb6365;
+}
+.fa-4{
+	font-size: 50px;
+	color: #fb6365;
+}
+.about_app {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #000;
+}
+.aboutAppP1 {
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #8888;
+}
+input {
+	border: 1px solid #000;
+	margin-left: 200px;
+	width: 40%;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px;
+}
+.formTextH1 {
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+}
+/*    <!--========================login and sign up=======================-->*/
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 350px;
+    height: 500px;
+    box-shadow: 1px 6px 6px rgba(0,0,0,0.26);
+    perspective: 1000px;
+	margin-top: 15px;
+ }
+.inner-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #e9ecef;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.card-back {
+    transform: rotateY(180deg);
+}
+a {
+    color: #fff;
+}
+.card h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input_box {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #000;
+    margin: 12px 0;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #000;
+}
+button {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.submit-btn{
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #000;
+    color: #000;
+}
+.submit-btn:hover {
+	background-color: #fb6365;
+	border: none;
+	transition: all ease .5s;
+}
+.submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+/*span {
+    font-size: 13px;
+    margin-left: 10px;
+}*/
+.card .btn {
+    margin-top: 70px;
+}
+.card a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+
+/*    <!--==============================FOOTER=======================-->*/
+
+.footerRow {
+	margin-top: 10em;
+	background-color: #000;
+	height: fit-content;
+	gap: 100px;
+	overflow-x: hidden;
+}
+.footerRow p {
+	color: #e9ecef;
+	margin: 15px;
+}
+.quickLinks {
+	margin: 15px;
+}
+.flogo {
+	margin: 15px;
+}
+.footer h5 {
+	margin: 15px;
+	color: #fff;
+}
+.footer a{
+	margin-left: 15px;
+	color: #e9ecef;
+}
+.footer a:hover {
+	color: #fb6365;
+}
+.addr p {
+	color: #e9ecef;
+	margin: 4px;
+	margin: 15px;
+}
+
+
+
+@media screen and (max-width:886px) {
+   .hero1 {
+	padding-top: 10px;
+	font-size: 3rem !important;
+   }
+   .herop {
+	padding-top: 10px;
+	font-size: 1.5rem !important;
+   }
+}
+
+@media screen and (max-width:768px) {
+	.dbtn2 {
+		width: 20% !important;
+		margin-left: 35%;
+	}
+ }
+
+ @media screen and (max-width:618px) {
+	.dbtn2 {
+		width: 30% !important;
+		margin-left: 30%;
+	}
+ }
+
+ @media screen and (max-width:532px) {
+	.hero1 {
+	 padding-top: 10px;
+	 font-size: 2.7rem !important;
+	}
+	.herop {
+	 padding-top: 10px;
+	 font-size: 1.5rem !important;
+	}
+ }
+
+ @media screen and (max-width:480px) {
+	.hero1 {
+	 padding-top: 100px;
+	 font-size: 2.5rem !important;
+	}
+	.herop {
+	 padding-top: 10px;
+	 font-size: 1.5rem !important;
+	}
+ }
+ @media screen and (max-width:428px) {
+	.hero1 {
+	 padding-top: 100px;
+	 font-size: 2rem !important;
+	}
+	.herop {
+	 padding-top: 10px;
+	 font-size: 1rem !important;
+	}
+ }
+ @media screen and (max-width:384px) {
+	.hero1 {
+	 padding-top: 100px;
+	 font-size: 1.7rem !important;
+	}
+	.herop {
+	 padding-top: 10px;
+	 font-size: 1.5rem !important;
+	}
+	input {
+		width: 100%;
+	}
+ }
+
+ @media screen and (max-width:620px) {
+	input {
+		width: 100%;
+	}
+ }
+
+ .navbar-toggler {
+	color: #000;
+ }
+ @media screen and (max-width:441px) {
+	.dbtn2 {
+		width: 40% !important;
+		margin-left: 27%;
+	}
+ }
